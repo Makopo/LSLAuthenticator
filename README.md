@@ -62,5 +62,5 @@ string MASTER_KEY2 = "CHANGE_HERE_AS_YOU_LIKE";
 
 [Key Card System "NoMoreOreOre"](https://marketplace.secondlife.com/p/Key-Card-System-NoMoreOreOre/446266) has various easy-to-use feature for non-programmer. If you don't get used to scripting, you might want to consider using this product.
 
-If you have purchased NoMoreOreOre and want it to work with this open-source code, feel free to contact to Mako Nozaki.
+If you have purchased NoMoreOreOre and want it to work with this open-source code, you'll need some modification. Feel free to contact to Mako Nozaki.
 
