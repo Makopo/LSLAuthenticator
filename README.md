@@ -23,10 +23,11 @@ You'll need to create two items:
 #### Server
 
 Put `server.lsl` into the object. You'll need to modify two lines.
+You can use `MASTER_KEY1` for individuals/groups, `MASTER_KEY2` for systems/products.
 
 ```lsl
-string MASTER_KEY1 = "KEY1";
-string MASTER_KEY2 = "CHANGE_HERE_AS_YOU_LIKE";
+string MASTER_KEY1 = "INDIVIDUAL_KEY";
+string MASTER_KEY2 = "SYSTEM_OR_PRODUCT_KEY";
 ```
 
 Modify your door/teleporter/gift giver script to accept the linked message.
@@ -48,8 +49,8 @@ Put `client.lsl` into the object. You'll need to modify two lines.
 To be successfully authenticated, both MASTER_KEY1 and MASTER_KEY2 should have the same value as the server.
 
 ```lsl
-string MASTER_KEY1 = "KEY1";
-string MASTER_KEY2 = "CHANGE_HERE_AS_YOU_LIKE";
+string MASTER_KEY1 = "INDIVIDUAL_KEY";
+string MASTER_KEY2 = "SYSTEM_OR_PRODUCT_KEY";
 ```
 
 ### Important Note

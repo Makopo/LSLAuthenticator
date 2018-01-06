@@ -21,8 +21,8 @@
 // ********************************************************************
 
 // server and client should have the same these two lines here
-string MASTER_KEY1 = "KEY1";
-string MASTER_KEY2 = "CHANGE_HERE_AS_YOU_LIKE";
+string MASTER_KEY1 = "INDIVIDUAL_KEY";
+string MASTER_KEY2 = "SYSTEM_OR_PRODUCT_KEY";
 
 integer CHANNEL_LISTEN = 3623985;
 
